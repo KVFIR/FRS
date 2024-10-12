@@ -1,45 +1,54 @@
-# Зависимости
-/node_modules
-/.pnp
-.pnp.js
+# Node.js dependencies
+node_modules/
 
-# Тестирование
-/coverage
+# TypeScript compiled output
+dist/
 
-# Продакшн
-/build
+# Environment variables
+.env
 
-# Разное
-.DS_Store
-.env*
-!.env.example
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Логи
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Logs
 *.log
-*.log.*
+npm-debug.log*
 
-# IDE
-.vscode
-.idea
+# Operating System files
+.DS_Store
+Thumbs.db
 
-# Временные файлы
+# Firebase config and cache
+.firebaserc
+firebase-debug.log
+.firebase/
+
+# Build artifacts
+build/
+
+# Temporary files
 *.tmp
 *.temp
 
-# Файлы базы данных
-*.sqlite
+# Discord bot token (if stored separately)
+bot-token.txt
 
-# Кэш
-.cache
-
-# Специфичные для Windows
-Thumbs.db
-
-# Игнорировать package-lock.json
+# Dependency lock files
 package-lock.json
+yarn.lock
 
-# НЕ игнорировать yarn.lock
-!yarn.lock
+# Test coverage reports
+coverage/
+
+# Heroku/Vercel/DigitalOcean specific files (if used for deployment)
+.vercel
+.digitalocean
+
+# Miscellaneous
+*.bak
+*.cache
+*.pid
+
