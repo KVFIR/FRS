@@ -33,19 +33,12 @@ build/
 *.tmp
 *.temp
 
-# Discord bot token (if stored separately)
-bot-token.txt
-
 # Dependency lock files
 package-lock.json
 yarn.lock
 
 # Test coverage reports
 coverage/
-
-# Heroku/Vercel/DigitalOcean specific files (if used for deployment)
-.vercel
-.digitalocean
 
 # Miscellaneous
 *.bak
